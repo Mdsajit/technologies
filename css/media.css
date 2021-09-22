@@ -1,0 +1,268 @@
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*navbar start*/
+       .fa, .fas {
+    color: #fff !important;
+}
+.nav-item{
+     text-align: center !important;
+ }
+ .content h1{
+    margin-top: -110px;
+    font-size: 21px;
+}
+.content p{
+    font-size: 13px;
+    padding: 5px 0 1px 0 !important;
+    
+}
+.b_button a {
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 14px;
+
+}
+ /*navbar end*/
+ .f_design i{
+    color: #2fccd0 !important;
+   }
+       .feature{
+    margin: 40px 0;
+}
+    .f_design{
+        padding: 30px !important;
+   }
+   .service-icons i{
+ color: #2fccd0 !important;;
+}
+.barprogress{
+    margin-top: 10px;
+}
+.offer {
+    padding: 5px 0;
+}
+.servicetext h1 {
+    font-size: 28px;
+    
+}
+.project_work{
+    margin: 58px 0;
+}
+.headerp{
+    font-size: 15px;
+}
+.project_work h1{
+   font-size: 25px;
+}
+.project_work p{
+    font-size: 14px;
+}
+.offer {
+    margin-bottom: -34px;
+}
+/*pricing*/
+.pricing{
+   padding: 30px !important;
+}
+.pricing h1{
+    font-size: 25px !important;
+}
+.pricing .second{
+    margin: 20px 0 !important;
+    transform: translateY(0px) !important;
+}
+/*clients start*/
+.clients h1{
+    font-size: 25px !important;
+}
+/*contact start*/
+.letter {
+    
+    margin: 40px auto;
+}
+.letter h1{
+    font-size: 25px !important;
+}
+.input-group-text{
+    color: #fff !important;
+    background: #5bc0de !important;
+    border-radius: 0 100px 100px 0 !important;
+    min-width: 100px;
+    min-height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: none !important;
+}
+.footer{
+    padding-top: 40px;
+}
+.news-input-main{
+    min-height: 40px;
+    min-width: 100px;
+    font-size: 12px;
+}
+.input-group-text-main{
+    min-width: 60px;
+    min-height: 40px;
+    font-size: 12px;
+}
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /*navbar start*/
+    .fa, .fas {
+    color: #fff !important;
+}
+.nav-item{
+     text-align: center !important;
+ }
+ .content h1{
+    margin-top: -110px;
+    font-size: 35px;
+}
+.content p{
+    font-size: 16px;
+    
+}
+.b_button a {
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 14px;
+
+}
+ /*navbar end*/
+    .feature{
+    margin: 60px 0;
+}
+ .f_design i{
+    color: #2fccd0 !important;
+    font-size: 50px;
+   }
+      .f_design{
+        padding: 30px !important;
+   }
+   .f_design i{
+    color: #2fccd0 !important;
+   }
+   .f_design h2 {
+    font-size: 30px;
+   
+}
+  .f_design p {
+    font-size: 18px;
+
+}
+.service-icons i{
+ color: #2fccd0 !important;;
+} 
+.offer {
+    margin-bottom: -34px;
+}
+.pricing .second{
+    margin: 20px 0;
+    transform: translateY(-0px);
+}
+.footer{
+    padding-top: 40px;
+}
+     
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+    /*navbar start*/
+    .fa, .fas {
+    color: #fff !important;
+}
+.content h1 {
+    margin-top: -110px;
+   
+}
+    .nav-item{
+     text-align: center !important;
+ }
+   /*navbar end*/
+   /*pricing start*/
+   .pricing .client{
+    height: auto;
+    margin-top: 50px;
+   }
+   /*pricing end*/
+   .contact p{
+    padding: 0 50px;
+   }
+   .feature{
+    margin: 80px 0 50px;
+    
+
+}
+   .f_design{
+        padding: 25px !important;
+   }
+   .f_design i{
+    color: #2fccd0 !important;
+   }
+   .f_design h2 {
+    font-size: 20px;
+   
+}
+  .f_design p {
+    font-size: 14px;
+} 
+.service-icons i{
+ color: #2fccd0 !important;;
+}
+   
+    }
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .content h1 {
+    margin-top: -110px;
+   
+}
+/*pricing start*/
+   .pricing{
+    height: auto;
+    margin-top: 50px;
+   }
+   /*pricing end*/
+   .feature{
+    margin: 100px 0 50px;
+    }
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .content h1 {
+    margin-top: -110px;
+   
+}
+  /*pricing start*/
+   .pricing{
+    height: auto;
+    margin-top: 50px;
+   }
+   /*pricing end*/
+   .feature{
+    margin: 100px 0 60px;
+    
+
+}
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ }
